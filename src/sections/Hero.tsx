@@ -84,11 +84,11 @@ const Hero: React.FC = () => {
               Contact Me
             </a>
             <a
-              href="src\sections\resume.pdf"
+              href="/Nawal_Resume.pdf"
               className="px-6 py-3 bg-transparent border-2 border-blue-600 text-blue-600 dark:text-blue-400
                         hover:bg-blue-600/10 font-medium rounded-md flex items-center justify-center
                         transition-all duration-300 w-full sm:w-auto"
-            >
+            target='_blank' >
               <Download size={18} className="mr-2" />
               Download CV
             </a>
